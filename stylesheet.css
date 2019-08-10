@@ -1,20 +1,21 @@
-.name{
-    position: absolute;    
+.name {
+    position: absolute;
     font-size: 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #F2F2F2;
 }
+
 /*教えてもらいました。@dj_yakitarakoさんに感謝します。*/
 
-*{
+* {
     padding: 0px;
     background-color: #141414;
     font-family: 'Noto Serif JP', serif;
 }
 
-.rinks{
+.rinks {
     border: none;
     color: #F2F2F2;
     overflow: hidden;
@@ -23,9 +24,14 @@
     padding-left: 0;
 }
 
-.rink{
+.rink {
     bottom: 0;
     float: left;
     padding-left: 20px;
     padding-bottom: 10px
+}
+
+.box {
+    color: #fff;
+    height: 100vh;
 }

@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <!--jQuery-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <!--twittercard-->
     <meta name="twitter:card" content="summary" />
@@ -13,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <SCRIPT TYPE="text/javascript">
-        
         //discordの演出 URL:http://gate.rickeluster.com/c17_web/2216/
         function TextChange(id, text) {
             if (document.all) {
@@ -28,7 +30,7 @@
         console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\nここには何もないみたいだ。\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 
     </SCRIPT>
-    
+
     <!--URLの色が変わるのを防ぐ URL:https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1110947071-->
     <style type="text/css">
         a:link {
@@ -55,26 +57,31 @@
 </head>
 
 <body>
-<body>
-        <div class="name">
-            <p>無添加干し梅</p>
-        </div>
-        <div class="rinks">
-            <div class="rink">
-                <a href="https://www.pixiv.net/member.php?id=41332344">pixiv</a>
+
+    <body>
+        <div class="box box1">
+            <div class="name">
+                <p>無添加干し梅</p>
             </div>
-            <div class="rink">
-                <a href="https://twitter.com/mutenkahoshiume">twitter</a>
-            </div>
-            <div class="rink">
-                <SPAN ID="text3" onmouseover='TextChange
+            <div class="rinks">
+                <div class="rink">
+                    <a href="https://www.pixiv.net/member.php?id=41332344">pixiv</a>
+                </div>
+                <div class="rink">
+                    <a href="https://twitter.com/mutenkahoshiume">twitter</a>
+                </div>
+                <div class="rink">
+                    <SPAN ID="text3" onmouseover='TextChange
                     ("text3", "無添加干し梅#9422")' onmouseout='TextChange
                     ("text3", "discord")'>
-                    discord
-                </SPAN>
+                        discord
+                    </SPAN>
+                </div>
             </div>
         </div>
-    </div>
-</body>
+        <div class="box box1">
+            ComingSoon...
+        </div>
+    </body>
 
 </html>
