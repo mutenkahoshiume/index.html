@@ -59,7 +59,7 @@ body {
     width: auto;
 }
 
-title1 {
+.title1 {
     transform: rotate(-45deg);
     margin: auto;
 }
