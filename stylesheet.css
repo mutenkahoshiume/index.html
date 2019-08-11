@@ -9,7 +9,7 @@
 
 /*教えてもらいました。@dj_yakitarakoさんに感謝します。*/
 
-* {
+body {
     padding: 0px;
     background-color: #141414;
     font-family: 'Noto Serif JP', serif;
@@ -34,4 +34,32 @@
 .box {
     color: #fff;
     height: 100vh;
+    padding: 0;
+}
+
+.center {
+    width: 400px;
+    text-align: center;
+    font-size: 50px;
+    width: auto;
+    padding-top: 10px;
+}
+
+
+.fumenurl1 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(125deg, #fd96f9,#96c6fd);
+    transform: rotate(45deg);
+    margin: auto;
+}
+
+
+.fumen {
+    width: auto;
+}
+
+title1 {
+    transform: rotate(-45deg);
+    margin: auto;
 }

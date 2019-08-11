@@ -1,6 +1,7 @@
 jQuery(function($){
 	var current;
 	$.scrollify({
+        scrollSpeed: 1100,
 		section:".box",
 		setHeights:false,
 		before:function(i,box){
