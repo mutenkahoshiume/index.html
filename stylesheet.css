@@ -45,21 +45,22 @@ body {
     padding-top: 10px;
 }
 
+#zentai {
+    position: relative;
+    margin: auto;
+}
 
-.fumenurl1 {
+#shikaku {
     width: 200px;
     height: 200px;
-    background: linear-gradient(125deg, #fd96f9,#96c6fd);
+    background: linear-gradient(125deg, #fd96f9, #96c6fd);
     transform: rotate(45deg);
     margin: auto;
+    /* 好きな設定、回転とか */
 }
 
-
-.fumen {
-    width: auto;
-}
-
-.title1 {
-    transform: rotate(-45deg);
+#moji {
+    position: absolute;
     margin: auto;
+    vertical-align: top;
 }
