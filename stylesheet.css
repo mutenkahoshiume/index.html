@@ -45,22 +45,34 @@ body {
     padding-top: 10px;
 }
 
-#zentai {
+.zentai {
     position: relative;
+    width: 282.842712475px;
+    height: 282.842712475px;
     margin: auto;
 }
 
-#shikaku {
+.shikaku {
+    position: absolute;
+    top: 41.4213562375px;
+    left: 41.4213562375px;
     width: 200px;
     height: 200px;
-    background: linear-gradient(125deg, #fd96f9, #96c6fd);
+    background-image: linear-gradient(125deg, #fd96f9, #96c6fd);
     transform: rotate(45deg);
-    margin: auto;
-    /* 好きな設定、回転とか */
 }
 
-#moji {
+.moji {
     position: absolute;
-    margin: auto;
-    vertical-align: top;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+
+.title1 {
+    padding-top: -35px;
+    font-size: 30px;
 }
