@@ -66,13 +66,30 @@ body {
     position: absolute;
     text-align: center;
     left: 50%;
-    top: 50%;
+    top: 25%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
 }
 
-
-.title1 {
-    padding-top: -35px;
+.EASY {
+    padding-top: 5px;
     font-size: 30px;
+    color: #1ABC9C;
+}
+
+.titel {
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.NORMAL {
+    padding-top: 0px;
+    font-size: 30px;
+    color: #F1C40F;
+}
+
+.HARD {
+    padding-top: 0px;
+    font-size: 30px;
+    color: #C0392B;
 }
