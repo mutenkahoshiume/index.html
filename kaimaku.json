@@ -1,0 +1,41 @@
+{
+    
+    "title": "パーティー開幕",
+    "artist": "otologic",
+    "bpm": 130.0,
+    "startTime": 0,
+    "level": {
+        "easy"  : "--",
+        "normal": "--",
+        "hard"  : "1"
+    },
+    "map": {
+        "easy"  : [
+
+        ],
+        "normal"  : [
+
+        ],
+        "hard"  : [
+					  {
+						  "bpm":130.0,
+						  "barLine": true
+					  },
+					  },
+					 "1234,,,2,3,,4,,2,3,2,1,2,,,",
+					 {
+					 	"barLine": true
+					 },
+					 "1234,,,2,3,,4,,2,3,2,1,2,,,",
+					 {
+					 	"barLine": true
+					 },
+					 "1234,,c,,b,g,a,f,d,e,c,h,b,g,,f",
+					 {
+					 	"barLine": true
+					 },
+					 "1234,,,,3,2,3,,c,,g,,1234"
+        ]
+
+	}
+}
