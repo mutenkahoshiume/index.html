@@ -15,7 +15,3 @@ jQuery(function ($) {
         }
     });
 });
-
-jQuery('.shikaku').click(function () {
-    location.href = jQuery(this).attr('data-url');
-});
