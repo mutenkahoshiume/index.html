@@ -1,6 +1,7 @@
 jQuery(function ($) {
     var current;
     $.scrollify({
+        easing: "easeOutExpo",
         scrollSpeed: 1100,
         section: ".box",
         setHeights: false,
