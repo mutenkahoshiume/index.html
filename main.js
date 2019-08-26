@@ -33,8 +33,4 @@ var x = setInterval(function () {
     document.getElementById("hour").innerHTML = hours;
     document.getElementById("min").innerHTML = minutes;
     document.getElementById("second").innerHTML = seconds;
-
-    if (d <= 0) {
-        clearInterval(x);
-    }
 }, 1000);
