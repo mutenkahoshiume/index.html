@@ -119,26 +119,49 @@ body {
 #day {
     bottom: 0;
     float: left;
+    text-align: center;
 }
 
 #hour {
     bottom: 0;
     float: left;
     padding-left: 50px;
+    text-align: center;
 }
 
 #min {
     bottom: 0;
     float: left;
     padding-left: 50px;
+    text-align: center;
 }
 
 #second {
     bottom: 0;
     float: left;
     padding-left: 50px;
+    text-align: center;
 }
 
-.annnai {
-    margin: 0 0 0 auto;
+.github {
+    text-align: center;
+    font-size: 50px;
+    width: auto;
+}
+
+.nowglass {
+     text-align: center;
+}
+
+
+
+
+.glasstitel {
+     text-align: center;
+    font-size: 25px;
+}
+
+.grasspicture {
+    text-align: center;
+    margin-top: 10px;
 }
